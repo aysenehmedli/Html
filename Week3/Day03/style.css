@@ -1,0 +1,69 @@
+li{
+    border: 1px solid gray;
+    margin: 4px ;
+    padding: 8px;
+    width: 350px;
+    margin-inline: auto;
+    transition: 0.2s;
+}
+
+
+
+
+/* li:first-child{
+    color: red;
+    background-color: rgb(32, 20, 20);
+}
+
+
+li:last-child{
+    color: blue;
+    background-color: yellow;
+}
+
+
+
+li:nth-child(2){
+    color: gold;
+    background-color: deeppink;
+}
+
+
+li:nth-child(3){
+    color: lightpink;
+    background-color: magenta;
+}
+
+
+
+
+li:nth-child(4){
+    color: blue;
+    background-color: rgb(100, 133, 161);
+}
+
+
+
+li:nth-child(5){
+    color: rgb(20, 55, 20);
+    background-color: rgb(146, 174, 103);
+}
+ */
+
+
+
+
+
+li:nth-child(odd){
+    background-color: rgb(110, 51, 51);
+}
+
+li:nth-child(even){
+    background-color: rgb(201, 10, 10);
+}
+
+li:hover{
+
+    background-color: yellow;
+    color: black;
+}
